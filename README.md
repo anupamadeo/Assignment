@@ -21,6 +21,7 @@ The preprocessing file:
     e. builds ,odel and calculates the rmse
     
   The model is not good since
+  
     a. the RMSE is very high
     b. A model is built for each chunk and does not update previous model
     
