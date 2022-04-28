@@ -5,6 +5,7 @@ There are two files:
 2. Model building
 
 The preprocessing file:
+
     a. reads the the data using dask. 
     b. changes dtype of 'updated_at' to datetime
     c. checks null values
@@ -12,6 +13,7 @@ The preprocessing file:
     e. sorts one partition and saves the file
   
  The model building file:
+ 
     a. reads the partitioned data into chunks
     b. uses the read_percent as (similar to ratings, the more the person likes the pratilipi more the person reads)
     c. converts the read_percent on the scale of 0 to 5
